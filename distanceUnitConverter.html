@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 1</title>
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/distanceUnitConverter.css"/>
+    
+  </head>
+  <body>
+    <p><a href="index.html">Go back</a></p>
+    <h1>Distance Unit Converter</h1>
+    <div>
+      <label for="fromUnit">From:</label>
+      <select id="fromUnit">
+        <option value="meters">Meters (m)</option>
+        <option value="inches">Inches (in)</option>
+        <option value="centimeters">Centimeters (сm)</option>
+        <option value="feet">Feet (ft)</option>
+        <option value="kilometers">Kilometers (km)</option>
+        <option value="yards">Yards (yd)</option>
+        
+        
+      </select>
+      <input type="number" id="fromValue" placeholder="Enter value">
+    </div>
+    <div>
+      <label for="toUnit">To:</label>
+      <select id="toUnit">
+        <option value="meters">Meters (m)</option>
+        <option value="kilometers">Kilometers (km)</option>
+        <option value="centimeters">Centimeters (сm)</option>
+        <option value="yards">Yards (yd)</option>
+        <option value="feet">Feet (ft)</option>
+        <option value="inches">Inches (in)</option>
+      </select>
+    </div>
+    <p>Result: <span id="result"></span></p>
+    <button id="convertBtn">Convert</button>
+    <script src="js/task-1.js" type="module"></script>
+  </body>
+</html>
