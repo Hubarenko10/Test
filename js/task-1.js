@@ -4,7 +4,7 @@ const fromInput = document.getElementById("fromUnit");
 const toInput = document.getElementById("toUnit");
 const distanceInput = document.getElementById("fromValue");
 
-fetch("../data.json")
+fetch("../task-1.json")
   .then((response) => response.json())
   .then((data) => {
     console.log(data);

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p><a href="index.html">Go back</a></p>
+    <h1>JSON Sorting and Filtering</h1>
+
+    <div>
+        <label for="filter-key">Filter by key:</label>
+        <input type="text" id="filter-key">
+        <label for="filter-value">Value:</label>
+        <input type="text" id="filter-value">
+        <button id="filter-btn">Filter</button>
+    </div>
+
+    <div>
+        <label for="sort-key">Sort by key:</label>
+        <select id="sort-key">
+            <option value="name">Name</option>
+            <option value="email">Email</option>
+        </select>
+        <button id="sort-btn">Sort</button>
+    </div>
+
+    <div id="data-container"></div>
+    <script src="js/task-2.js" type="module"></script>
+</body>
+</html>
