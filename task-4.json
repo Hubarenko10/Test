@@ -1,0 +1,124 @@
+{
+  "questions": [
+    {
+      "id": "question-1",
+      "question": "Как часто Вы занимаетесь физическими упражнениями?",
+      "answers": [
+        {
+          "text": "Ежедневно",
+          "nextQuestion": "question-2"
+        },
+        {
+          "text": "Раз в неделю или реже",
+          "nextQuestion": "question-3"
+        }
+      ]
+    },
+    {
+      "id": "question-2",
+      "question": "Какие физические упражнения Вы обычно делаете?",
+      "answers": [
+        {
+          "text": "Кардио (бег, езда на велосипеде и т. д.)",
+          "nextQuestion": "question-4"
+        },
+        {
+          "text": "Силовые упражнения",
+          "nextQuestion": "question-4"
+        },
+        {
+          "text": "Другое",
+          "nextQuestion": "question-4"
+        }
+      ]
+    },
+    {
+      "id": "question-3",
+      "question": "Что мешает Вам заниматься физическими упражнениями?",
+      "answers": [
+        {
+          "text": "Не хватает времени",
+          "nextQuestion": null
+        },
+        {
+          "text": "Нет мотивации",
+          "nextQuestion": null
+        },
+        {
+          "text": "Другое",
+          "nextQuestion": null
+        }
+      ]
+    },
+    {
+      "id": "question-4",
+      "question": "Какую диету Вы соблюдаете?",
+      "answers": [
+        {
+          "text": "Вегетарианская",
+          "nextQuestion": "question-5"
+        },
+        {
+          "text": "Палео",
+          "nextQuestion": "question-5"
+        },
+        {
+          "text": "Кето",
+          "nextQuestion": "question-5"
+        },
+        {
+          "text": "Другое",
+          "nextQuestion": "question-5"
+        },
+        {
+          "text": "Я не соблюдаю диету",
+          "nextQuestion": "question-5"
+        }
+      ]
+    },
+    {
+      "id": "question-5",
+      "question": "Как часто Вы едите фаст-фуд или готовую еду из супермаркета?",
+      "answers": [
+        {
+          "text": "Ежедневно",
+          "nextQuestion": "question-6"
+        },
+        {
+          "text": "Несколько раз в неделю",
+          "nextQuestion": "question-6"
+        },
+        {
+          "text": "Редко",
+          "nextQuestion": "question-6"
+        },
+        {
+          "text": "Никогда",
+          "nextQuestion": "question-6"
+        }
+      ]
+    },
+    {
+      "id": "question-6",
+      "question": "Какое количество фруктов и овощей Вы едите в день?",
+      "answers": [
+        {
+          "text": "Менее 1 порции",
+          "nextQuestion": null
+        },
+        {
+          "text": "1-2 порции",
+          "nextQuestion": null
+        },
+        {
+          "text": "3-4 порции",
+          "nextQuestion": null
+        },
+        {
+          "text": "Более 4 порций",
+          "nextQuestion": null
+        }
+      ]
+    }
+  ]
+}
