@@ -30,3 +30,5 @@ function convert(data) {
   let result = distance * data[from][to];
   resultElement.innerText = `${distance} ${from} is equal to ${result.toFixed(2)} ${to}.`;
 }
+
+
